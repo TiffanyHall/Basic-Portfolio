@@ -12,8 +12,8 @@ body {
     height: 75px;
 }
 
-.navbar .size {
-    width: 1400px;
+.stage {
+    width: 100%;
 }
 
 .navbar .title {
@@ -33,33 +33,14 @@ body {
     font-size: 20px;
     color: #f2f2f2a8;
     text-align: center;
-    padding: 25px 15px;
     text-decoration: none;
-    margin-right: 20px;
     padding-top: 50px;
 }
 
 .links {
+    margin-right: 23%;
     float: right; 
-}
-
-.nav-divider1 {
-    border-right:2px solid lightgray; 
-     height: 20px;
-     right: 265px;
-     top: 35px; 
-    position: absolute;
-     
-}
-
-.nav-divider2 {
-    border-right: 2px solid lightgray; 
-     height: 20px;
-     right: 145px;
-     top: 35px; 
-     position: absolute;
-     
-     
+    height: 80px;
 }
 
 .navbar a.active {
