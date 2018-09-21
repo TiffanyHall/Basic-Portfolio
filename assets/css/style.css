@@ -1,13 +1,12 @@
 body {
-   background-image:url("../images/oriental/oriental.png") 
-  
+   background-image:url("../images/oriental/oriental.png");
+   margin: 0; 
+   
 }
 
 .navbar {
     background-color: rgb(97, 2, 49);
     overflow: hidden;
-    padding: 0;
-    margin: 0;
     font-size: 18px;
     height: 75px;
 }
@@ -29,7 +28,6 @@ body {
 
 .navbar a {
    
-
     font-size: 20px;
     color: #f2f2f2a8;
     text-align: center;
@@ -41,6 +39,7 @@ body {
     margin-right: 23%;
     float: right; 
     height: 80px;
+    padding-top: 25px;
 }
 
 .navbar a.active {
@@ -60,7 +59,7 @@ body {
     width: 960px;
     height: 640px;
     border: 1px solid #004c66;
-    margin: 20px 80px 20px 400px;
+    margin: 0 auto;
     position: relative;
     
 }
